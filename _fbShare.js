@@ -3,4 +3,4 @@ function FbShare(url, width, height) {
     window.open(facebookURL, '', 'width=' + width + ', height=' + height);
 }
 
-export.fbShare = FbShare;
+module.exports = FbShare;
