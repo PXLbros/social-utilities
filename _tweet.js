@@ -1,7 +1,6 @@
-function Tweet(text, width, height) {
+function _tweet(text, width, height) {
     let twitterURL = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}`;
     window.open(twitterURL, '', 'width=' + width + ', height=' + height);
 }
 
-// exports.tweet = Tweet;
-module.exports = Tweets;
+module.exports = _tweet;
